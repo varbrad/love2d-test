@@ -7,7 +7,11 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "build": "node ./build/build.js",
     "win32": "./libs/love2d-win32/love.exe ./src --console",
     "win64": "./libs/love2d-win64/love.exe ./src --console"
+  },
+  "devDependencies": {
+    "archiver": "^2.1.1"
   }
 }

@@ -41,3 +41,9 @@ luac.out
 
 # Love 2D binaries
 libs
+
+# distribution folder
+dist
+
+# node modules
+node_modules
