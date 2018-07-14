@@ -1,3 +1,13 @@
+local random = require "util/random"
+
+function love.focus(focus)
+  print(random())
+end
+
 function love.draw()
-  love.graphics.print("Hello, world!", 100, 100)
+
+end
+
+function love.update()
+
 end
