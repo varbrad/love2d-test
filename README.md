@@ -12,4 +12,4 @@ You must first download love2d for your desired platform, and place the contents
 
 ## Build
 
-`yarn` is used to bundle the source into a `.love` file.
+Run `yarn build`. This will package the source into a `.love` file within the `build` directory.
