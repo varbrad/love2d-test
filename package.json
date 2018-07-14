@@ -1,0 +1,13 @@
+{
+  "name": "love2d-test",
+  "version": "0.1.0",
+  "description": "Love2D game test - using yarn to manage command running :)",
+  "repository": "git@github.com:varbrad/love2d-test.git",
+  "author": "Brad Davies <varbrad@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "win32": "./libs/love2d-win32/love.exe ./src --console",
+    "win64": "./libs/love2d-win64/love.exe ./src --console"
+  }
+}
